@@ -2,7 +2,7 @@
 This is a demo project to elaborate how Machine Learning Models are deployed on production using Flask API
 
 ### Project Structure
-This project has four major parts :
+This project has the following major parts :
 1. app.py - This contains Flask APIs that receives employee details through GUI or API calls, predicts the access based on our model and returns it.
 2. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
 3. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee access.
